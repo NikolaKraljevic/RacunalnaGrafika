@@ -1,4 +1,10 @@
-
+import sys, time, math
+from pyglet.gl import *
+from random import *
+from numpy.linalg import norm
+from pyrr import Vector3
+import copy
+import numpy as np
 
 
 class System:
